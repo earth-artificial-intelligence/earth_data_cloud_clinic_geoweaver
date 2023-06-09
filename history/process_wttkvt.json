@@ -1,0 +1,251 @@
+[{
+  "history_id" : "up3kzptbd6u",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686247261143,
+  "history_end_time" : 1686247269915,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "uvo0yrqqk9g",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686246439537,
+  "history_end_time" : 1686246448413,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "pw27re37yjl",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686245952435,
+  "history_end_time" : 1686245961027,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "1no6k4c04fb",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686245892813,
+  "history_end_time" : 1686245901478,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "8twcw142yu6",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686245526518,
+  "history_end_time" : 1686245774156,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "5dihhe0htym",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686242727905,
+  "history_end_time" : 1686242736398,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "30ixl9b31l4",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686242527573,
+  "history_end_time" : 1686242535971,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "cfstxspovzt",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686242156975,
+  "history_end_time" : 1686242165723,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "d0dkfae7zzm",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/home/chetana/gw-workspace/d0dkfae7zzm/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \n",
+  "history_begin_time" : 1686241616572,
+  "history_end_time" : 1686244617700,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "lr5j6k1e2h8",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/lr5j6k1e2h8/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686241482671,
+  "history_end_time" : 1686241482803,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "853avta8clr",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/853avta8clr/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686241462220,
+  "history_end_time" : 1686241462333,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "8fz04ifl4ku",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/8fz04ifl4ku/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686241405644,
+  "history_end_time" : 1686241412625,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "ym76gkqkdek",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/ym76gkqkdek/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686241370403,
+  "history_end_time" : 1686241372951,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "bz3qybdxbkp",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/home/chetana/gw-workspace/bz3qybdxbkp/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686241352083,
+  "history_end_time" : 1686241361741,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "zfquotoa868",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/home/chetana/gw-workspace/zfquotoa868/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686241329726,
+  "history_end_time" : 1686241339093,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "c86lv1b633a",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686241127863,
+  "history_end_time" : 1686241136662,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "924aglh3wdb",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/924aglh3wdb/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686240680682,
+  "history_end_time" : 1686240680842,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "dzmcvimwbpi",
+  "history_input" : "!pip3 install earthaccess xarray geopandas geoviews harmony s3fs\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "  File \"/Users/gokulprathin/gw-workspace/dzmcvimwbpi/earth_data_utils.py\", line 1\n    !pip3 install earthaccess xarray geopandas geoviews harmony s3fs\n    ^\nSyntaxError: invalid syntax\n",
+  "history_begin_time" : 1686240632080,
+  "history_end_time" : 1686240632222,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "yezptu3xppf",
+  "history_input" : "# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/yezptu3xppf/earth_data_utils.py\", line 7, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686240565011,
+  "history_end_time" : 1686240565580,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "rm0v06cmvuc",
+  "history_input" : "# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/home/chetana/gw-workspace/rm0v06cmvuc/earth_data_utils.py\", line 7, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686240518440,
+  "history_end_time" : 1686240523317,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "15jtnmmliz8",
+  "history_input" : "# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "sh: /home/chetana/anaconda3/condabin/python: No such file or directory\n",
+  "history_begin_time" : 1686240486981,
+  "history_end_time" : 1686240496412,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "5gi96g5psgp",
+  "history_input" : "# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/home/chetana/gw-workspace/5gi96g5psgp/earth_data_utils.py\", line 7, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686240368292,
+  "history_end_time" : 1686240477213,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "ro72gckii7a",
+  "history_input" : "# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/home/chetana/gw-workspace/ro72gckii7a/earth_data_utils.py\", line 7, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686240351020,
+  "history_end_time" : 1686240359459,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "9a06gtkzws7",
+  "history_input" : "# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/home/chetana/gw-workspace/9a06gtkzws7/earth_data_utils.py\", line 7, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686240316399,
+  "history_end_time" : 1686240331451,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "mtpbb008ahf",
+  "history_input" : "# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs\n%matplotlib inline",
+  "history_output" : "  File \"/home/chetana/gw-workspace/mtpbb008ahf/earth_data_utils.py\", line 18\n    %matplotlib inline\n    ^\nSyntaxError: invalid syntax\n",
+  "history_begin_time" : 1686240132037,
+  "history_end_time" : 1686240219858,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},]

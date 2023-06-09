@@ -1,0 +1,9 @@
+{
+  "id" : "kr2novmm4i9i27z5adyj",
+  "name" : "earth_data_cloud_clinic",
+  "description" : "",
+  "owner" : "111111",
+  "confidential" : "FALSE",
+  "edges" : "[{\"source\":{\"title\":\"earth_data_utils\",\"id\":\"wttkvt-GJjq8\",\"x\":524.66552734375,\"y\":562,\"color\":\"white\"},\"target\":{\"title\":\"search_data\",\"id\":\"yvo1ds-96vns\",\"x\":751,\"y\":559,\"color\":\"white\"}},{\"source\":{\"title\":\"search_data\",\"id\":\"yvo1ds-96vns\",\"x\":751,\"y\":559,\"color\":\"white\"},\"target\":{\"title\":\"earth_access_authenticate\",\"id\":\"cgvhiy-BgnXM\",\"x\":997,\"y\":558,\"color\":\"white\"}},{\"source\":{\"title\":\"earth_access_authenticate\",\"id\":\"cgvhiy-BgnXM\",\"x\":997,\"y\":558,\"color\":\"white\"},\"target\":{\"title\":\"s3_file_storage\",\"id\":\"1b4ko0-4k9iL\",\"x\":1004,\"y\":694,\"color\":\"white\"}}]",
+  "nodes" : "[{\"title\":\"earth_data_utils\",\"id\":\"wttkvt-GJjq8\",\"x\":524.66552734375,\"y\":562,\"color\":\"white\"},{\"title\":\"search_data\",\"id\":\"yvo1ds-96vns\",\"x\":751,\"y\":559,\"color\":\"white\"},{\"title\":\"earth_access_authenticate\",\"id\":\"cgvhiy-BgnXM\",\"x\":997,\"y\":558,\"color\":\"white\"},{\"title\":\"s3_file_storage\",\"id\":\"1b4ko0-4k9iL\",\"x\":1004,\"y\":694,\"color\":\"white\"}]"
+}

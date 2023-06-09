@@ -1,0 +1,261 @@
+[{
+  "history_id" : "33tkamqsogz",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\nGranules found: 18\n",
+  "history_begin_time" : 1686247271147,
+  "history_end_time" : 1686247280910,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "00z9oxnb2zd",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\nGranules found: 18\n",
+  "history_begin_time" : 1686246449538,
+  "history_end_time" : 1686246460281,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "vb5uvkvdlgm",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\nGranules found: 18\n",
+  "history_begin_time" : 1686245962439,
+  "history_end_time" : 1686245978056,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "h4tv9h0v0no",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)",
+  "history_output" : "Running",
+  "history_begin_time" : 1686245903250,
+  "history_end_time" : 1686245902814,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "100001",
+  "indicator" : "Running"
+},{
+  "history_id" : "7s0euy77fc6",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\nGranules found: 18\n",
+  "history_begin_time" : 1686245536752,
+  "history_end_time" : 1686245774158,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "vsed2t9rwoh",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\nGranules found: 18\n",
+  "history_begin_time" : 1686242737933,
+  "history_end_time" : 1686242753536,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "0i4kigpgw4j",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\nGranules found: 18\n",
+  "history_begin_time" : 1686242537574,
+  "history_end_time" : 1686242547086,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "bM9Tn7B1IVrq",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\nGranules found: 18\n",
+  "history_begin_time" : 1686242505603,
+  "history_end_time" : 1686242516232,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : null,
+  "indicator" : "Done"
+},{
+  "history_id" : "b2ki4bv0fq7",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\nGranules found: 18\n",
+  "history_begin_time" : 1686242166976,
+  "history_end_time" : 1686242177307,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "hpq8q3ru5v7",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nprint(results)",
+  "history_output" : "Traceback (most recent call last):\n  File \"/home/chetana/gw-workspace/hpq8q3ru5v7/search_data.py\", line 1, in <module>\n    from earth_data_utils import *\n  File \"/home/chetana/gw-workspace/hpq8q3ru5v7/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686241618850,
+  "history_end_time" : 1686244617716,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "wdh8dwomdab",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nprint(results)",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/wdh8dwomdab/search_data.py\", line 1, in <module>\n    from earth_data_utils import *\n  File \"/Users/gokulprathin/gw-workspace/wdh8dwomdab/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686241484107,
+  "history_end_time" : 1686241484240,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "u2tgz07y8i3",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nprint(results)",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/u2tgz07y8i3/search_data.py\", line 1, in <module>\n    from earth_data_utils import *\n  File \"/Users/gokulprathin/gw-workspace/u2tgz07y8i3/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686241463822,
+  "history_end_time" : 1686241463921,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "xm777q6z976",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nprint(results)",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/xm777q6z976/search_data.py\", line 1, in <module>\n    from earth_data_utils import *\n  File \"/Users/gokulprathin/gw-workspace/xm777q6z976/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686241407359,
+  "history_end_time" : 1686241412626,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "mq3568p55sa",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nprint(results)",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/mq3568p55sa/search_data.py\", line 1, in <module>\n    from earth_data_utils import *\n  File \"/Users/gokulprathin/gw-workspace/mq3568p55sa/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686241372114,
+  "history_end_time" : 1686241372957,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "58cpg09gx0l",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nprint(results)",
+  "history_output" : "Traceback (most recent call last):\n  File \"/home/chetana/gw-workspace/58cpg09gx0l/search_data.py\", line 1, in <module>\n    from earth_data_utils import *\n  File \"/home/chetana/gw-workspace/58cpg09gx0l/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686241355914,
+  "history_end_time" : 1686241361742,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "l8x829oqpda",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nprint(results)",
+  "history_output" : "Traceback (most recent call last):\n  File \"/home/chetana/gw-workspace/l8x829oqpda/search_data.py\", line 1, in <module>\n    from earth_data_utils import *\n  File \"/home/chetana/gw-workspace/l8x829oqpda/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686241331118,
+  "history_end_time" : 1686241339094,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "w2a2l6kiyev",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nprint(results)",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\nGranules found: 18\n[Collection: {'Version': '2205', 'ShortName': 'SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205'}\nSpatial coverage: {'HorizontalSpatialDomain': {'Geometry': {'BoundingRectangles': [{'WestBoundingCoordinate': 0.083, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': 180, 'NorthBoundingCoordinate': 79.917}, {'WestBoundingCoordinate': -180, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': -0.083, 'NorthBoundingCoordinate': 79.917}]}}}\nTemporal coverage: {'RangeDateTime': {'EndingDateTime': '2021-07-05T00:00:00.000Z', 'BeginningDateTime': '2021-07-05T00:00:00.000Z'}}\nSize(MB): 0\nData: ['https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205/ssh_grids_v2205_2021070512.nc'], Collection: {'Version': '2205', 'ShortName': 'SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205'}\nSpatial coverage: {'HorizontalSpatialDomain': {'Geometry': {'BoundingRectangles': [{'WestBoundingCoordinate': 0.083, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': 180, 'NorthBoundingCoordinate': 79.917}, {'WestBoundingCoordinate': -180, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': -0.083, 'NorthBoundingCoordinate': 79.917}]}}}\nTemporal coverage: {'RangeDateTime': {'EndingDateTime': '2021-07-10T00:00:00.000Z', 'BeginningDateTime': '2021-07-10T00:00:00.000Z'}}\nSize(MB): 0\nData: ['https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205/ssh_grids_v2205_2021071012.nc'], Collection: {'Version': '2205', 'ShortName': 'SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205'}\nSpatial coverage: {'HorizontalSpatialDomain': {'Geometry': {'BoundingRectangles': [{'WestBoundingCoordinate': 0.083, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': 180, 'NorthBoundingCoordinate': 79.917}, {'WestBoundingCoordinate': -180, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': -0.083, 'NorthBoundingCoordinate': 79.917}]}}}\nTemporal coverage: {'RangeDateTime': {'EndingDateTime': '2021-07-15T00:00:00.000Z', 'BeginningDateTime': '2021-07-15T00:00:00.000Z'}}\nSize(MB): 0\nData: ['https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205/ssh_grids_v2205_2021071512.nc'], Collection: {'Version': '2205', 'ShortName': 'SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205'}\nSpatial coverage: {'HorizontalSpatialDomain': {'Geometry': {'BoundingRectangles': [{'WestBoundingCoordinate': 0.083, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': 180, 'NorthBoundingCoordinate': 79.917}, {'WestBoundingCoordinate': -180, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': -0.083, 'NorthBoundingCoordinate': 79.917}]}}}\nTemporal coverage: {'RangeDateTime': {'EndingDateTime': '2021-07-20T00:00:00.000Z', 'BeginningDateTime': '2021-07-20T00:00:00.000Z'}}\nSize(MB): 0\nData: ['https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205/ssh_grids_v2205_2021072012.nc'], Collection: {'Version': '2205', 'ShortName': 'SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205'}\nSpatial coverage: {'HorizontalSpatialDomain': {'Geometry': {'BoundingRectangles': [{'WestBoundingCoordinate': 0.083, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': 180, 'NorthBoundingCoordinate': 79.917}, {'WestBoundingCoordinate': -180, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': -0.083, 'NorthBoundingCoordinate': 79.917}]}}}\nTemporal coverage: {'RangeDateTime': {'EndingDateTime': '2021-07-25T00:00:00.000Z', 'BeginningDateTime': '2021-07-25T00:00:00.000Z'}}\nSize(MB): 0\nData: ['https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205/ssh_grids_v2205_2021072512.nc'], Collection: {'Version': '2205', 'ShortName': 'SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205'}\nSpatial coverage: {'HorizontalSpatialDomain': {'Geometry': {'BoundingRectangles': [{'WestBoundingCoordinate': 0.083, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': 180, 'NorthBoundingCoordinate': 79.917}, {'WestBoundingCoordinate': -180, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': -0.083, 'NorthBoundingCoordinate': 79.917}]}}}\nTemporal coverage: {'RangeDateTime': {'EndingDateTime': '2021-07-30T00:00:00.000Z', 'BeginningDateTime': '2021-07-30T00:00:00.000Z'}}\nSize(MB): 0\nData: ['https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205/ssh_grids_v2205_2021073012.nc'], Collection: {'Version': '2205', 'ShortName': 'SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205'}\nSpatial coverage: {'HorizontalSpatialDomain': {'Geometry': {'BoundingRectangles': [{'WestBoundingCoordinate': 0.083, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': 180, 'NorthBoundingCoordinate': 79.917}, {'WestBoundingCoordinate': -180, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': -0.083, 'NorthBoundingCoordinate': 79.917}]}}}\nTemporal coverage: {'RangeDateTime': {'EndingDateTime': '2021-08-04T00:00:00.000Z', 'BeginningDateTime': '2021-08-04T00:00:00.000Z'}}\nSize(MB): 0\nData: ['https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205/ssh_grids_v2205_2021080412.nc'], Collection: {'Version': '2205', 'ShortName': 'SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205'}\nSpatial coverage: {'HorizontalSpatialDomain': {'Geometry': {'BoundingRectangles': [{'WestBoundingCoordinate': 0.083, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': 180, 'NorthBoundingCoordinate': 79.917}, {'WestBoundingCoordinate': -180, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': -0.083, 'NorthBoundingCoordinate': 79.917}]}}}\nTemporal coverage: {'RangeDateTime': {'EndingDateTime': '2021-08-09T00:00:00.000Z', 'BeginningDateTime': '2021-08-09T00:00:00.000Z'}}\nSize(MB): 0\nData: ['https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205/ssh_grids_v2205_2021080912.nc'], Collection: {'Version': '2205', 'ShortName': 'SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205'}\nSpatial coverage: {'HorizontalSpatialDomain': {'Geometry': {'BoundingRectangles': [{'WestBoundingCoordinate': 0.083, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': 180, 'NorthBoundingCoordinate': 79.917}, {'WestBoundingCoordinate': -180, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': -0.083, 'NorthBoundingCoordinate': 79.917}]}}}\nTemporal coverage: {'RangeDateTime': {'EndingDateTime': '2021-08-14T00:00:00.000Z', 'BeginningDateTime': '2021-08-14T00:00:00.000Z'}}\nSize(MB): 0\nData: ['https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205/ssh_grids_v2205_2021081412.nc'], Collection: {'Version': '2205', 'ShortName': 'SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205'}\nSpatial coverage: {'HorizontalSpatialDomain': {'Geometry': {'BoundingRectangles': [{'WestBoundingCoordinate': 0.083, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': 180, 'NorthBoundingCoordinate': 79.917}, {'WestBoundingCoordinate': -180, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': -0.083, 'NorthBoundingCoordinate': 79.917}]}}}\nTemporal coverage: {'RangeDateTime': {'EndingDateTime': '2021-08-19T00:00:00.000Z', 'BeginningDateTime': '2021-08-19T00:00:00.000Z'}}\nSize(MB): 0\nData: ['https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205/ssh_grids_v2205_2021081912.nc'], Collection: {'Version': '2205', 'ShortName': 'SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205'}\nSpatial coverage: {'HorizontalSpatialDomain': {'Geometry': {'BoundingRectangles': [{'WestBoundingCoordinate': 0.083, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': 180, 'NorthBoundingCoordinate': 79.917}, {'WestBoundingCoordinate': -180, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': -0.083, 'NorthBoundingCoordinate': 79.917}]}}}\nTemporal coverage: {'RangeDateTime': {'EndingDateTime': '2021-08-24T00:00:00.000Z', 'BeginningDateTime': '2021-08-24T00:00:00.000Z'}}\nSize(MB): 0\nData: ['https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205/ssh_grids_v2205_2021082412.nc'], Collection: {'Version': '2205', 'ShortName': 'SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205'}\nSpatial coverage: {'HorizontalSpatialDomain': {'Geometry': {'BoundingRectangles': [{'WestBoundingCoordinate': 0.083, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': 180, 'NorthBoundingCoordinate': 79.917}, {'WestBoundingCoordinate': -180, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': -0.083, 'NorthBoundingCoordinate': 79.917}]}}}\nTemporal coverage: {'RangeDateTime': {'EndingDateTime': '2021-08-29T00:00:00.000Z', 'BeginningDateTime': '2021-08-29T00:00:00.000Z'}}\nSize(MB): 0\nData: ['https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205/ssh_grids_v2205_2021082912.nc'], Collection: {'Version': '2205', 'ShortName': 'SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205'}\nSpatial coverage: {'HorizontalSpatialDomain': {'Geometry': {'BoundingRectangles': [{'WestBoundingCoordinate': 0.083, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': 180, 'NorthBoundingCoordinate': 79.917}, {'WestBoundingCoordinate': -180, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': -0.083, 'NorthBoundingCoordinate': 79.917}]}}}\nTemporal coverage: {'RangeDateTime': {'EndingDateTime': '2021-09-03T00:00:00.000Z', 'BeginningDateTime': '2021-09-03T00:00:00.000Z'}}\nSize(MB): 0\nData: ['https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205/ssh_grids_v2205_2021090312.nc'], Collection: {'Version': '2205', 'ShortName': 'SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205'}\nSpatial coverage: {'HorizontalSpatialDomain': {'Geometry': {'BoundingRectangles': [{'WestBoundingCoordinate': 0.083, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': 180, 'NorthBoundingCoordinate': 79.917}, {'WestBoundingCoordinate': -180, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': -0.083, 'NorthBoundingCoordinate': 79.917}]}}}\nTemporal coverage: {'RangeDateTime': {'EndingDateTime': '2021-09-08T00:00:00.000Z', 'BeginningDateTime': '2021-09-08T00:00:00.000Z'}}\nSize(MB): 0\nData: ['https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205/ssh_grids_v2205_2021090812.nc'], Collection: {'Version': '2205', 'ShortName': 'SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205'}\nSpatial coverage: {'HorizontalSpatialDomain': {'Geometry': {'BoundingRectangles': [{'WestBoundingCoordinate': 0.083, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': 180, 'NorthBoundingCoordinate': 79.917}, {'WestBoundingCoordinate': -180, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': -0.083, 'NorthBoundingCoordinate': 79.917}]}}}\nTemporal coverage: {'RangeDateTime': {'EndingDateTime': '2021-09-13T00:00:00.000Z', 'BeginningDateTime': '2021-09-13T00:00:00.000Z'}}\nSize(MB): 0\nData: ['https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205/ssh_grids_v2205_2021091312.nc'], Collection: {'Version': '2205', 'ShortName': 'SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205'}\nSpatial coverage: {'HorizontalSpatialDomain': {'Geometry': {'BoundingRectangles': [{'WestBoundingCoordinate': 0.083, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': 180, 'NorthBoundingCoordinate': 79.917}, {'WestBoundingCoordinate': -180, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': -0.083, 'NorthBoundingCoordinate': 79.917}]}}}\nTemporal coverage: {'RangeDateTime': {'EndingDateTime': '2021-09-18T00:00:00.000Z', 'BeginningDateTime': '2021-09-18T00:00:00.000Z'}}\nSize(MB): 0\nData: ['https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205/ssh_grids_v2205_2021091812.nc'], Collection: {'Version': '2205', 'ShortName': 'SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205'}\nSpatial coverage: {'HorizontalSpatialDomain': {'Geometry': {'BoundingRectangles': [{'WestBoundingCoordinate': 0.083, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': 180, 'NorthBoundingCoordinate': 79.917}, {'WestBoundingCoordinate': -180, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': -0.083, 'NorthBoundingCoordinate': 79.917}]}}}\nTemporal coverage: {'RangeDateTime': {'EndingDateTime': '2021-09-23T00:00:00.000Z', 'BeginningDateTime': '2021-09-23T00:00:00.000Z'}}\nSize(MB): 0\nData: ['https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205/ssh_grids_v2205_2021092312.nc'], Collection: {'Version': '2205', 'ShortName': 'SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205'}\nSpatial coverage: {'HorizontalSpatialDomain': {'Geometry': {'BoundingRectangles': [{'WestBoundingCoordinate': 0.083, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': 180, 'NorthBoundingCoordinate': 79.917}, {'WestBoundingCoordinate': -180, 'SouthBoundingCoordinate': -79.917, 'EastBoundingCoordinate': -0.083, 'NorthBoundingCoordinate': 79.917}]}}}\nTemporal coverage: {'RangeDateTime': {'EndingDateTime': '2021-09-28T00:00:00.000Z', 'BeginningDateTime': '2021-09-28T00:00:00.000Z'}}\nSize(MB): 0\nData: ['https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205/ssh_grids_v2205_2021092812.nc']]\n",
+  "history_begin_time" : 1686241137864,
+  "history_end_time" : 1686241147311,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "mp0zxhlzpkp",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nprint(results)",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/mp0zxhlzpkp/search_data.py\", line 1, in <module>\n    from earth_data_utils import *\n  File \"/Users/gokulprathin/gw-workspace/mp0zxhlzpkp/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686240682389,
+  "history_end_time" : 1686240682490,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "xfwmdamno4d",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nprint(results)",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/xfwmdamno4d/search_data.py\", line 1, in <module>\n    from earth_data_utils import *\n  File \"/Users/gokulprathin/gw-workspace/xfwmdamno4d/earth_data_utils.py\", line 1\n    !pip3 install earthaccess xarray geopandas geoviews harmony s3fs\n    ^\nSyntaxError: invalid syntax\n",
+  "history_begin_time" : 1686240633905,
+  "history_end_time" : 1686240634034,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "oehnvkll7q9",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nprint(results)",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/oehnvkll7q9/search_data.py\", line 1, in <module>\n    from earth_data_utils import *\n  File \"/Users/gokulprathin/gw-workspace/oehnvkll7q9/earth_data_utils.py\", line 7, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686240567394,
+  "history_end_time" : 1686240567513,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "8nq18ogdwdi",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nprint(results)",
+  "history_output" : "Traceback (most recent call last):\n  File \"/home/chetana/gw-workspace/8nq18ogdwdi/search_data.py\", line 1, in <module>\n    from earth_data_utils import *\n  File \"/home/chetana/gw-workspace/8nq18ogdwdi/earth_data_utils.py\", line 7, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686240520963,
+  "history_end_time" : 1686240523319,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "sj2llldbybq",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nprint(results)",
+  "history_output" : "sh: /home/chetana/anaconda3/condabin/python: No such file or directory\n",
+  "history_begin_time" : 1686240489480,
+  "history_end_time" : 1686240496413,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "7ikdfl3nkyj",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nprint(results)",
+  "history_output" : "Traceback (most recent call last):\n  File \"/home/chetana/gw-workspace/7ikdfl3nkyj/search_data.py\", line 1, in <module>\n    from earth_data_utils import *\n  File \"/home/chetana/gw-workspace/7ikdfl3nkyj/earth_data_utils.py\", line 7, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686240372894,
+  "history_end_time" : 1686240477214,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "dnqed48moze",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nprint(results)",
+  "history_output" : "Traceback (most recent call last):\n  File \"/home/chetana/gw-workspace/dnqed48moze/search_data.py\", line 1, in <module>\n    from earth_data_utils import *\n  File \"/home/chetana/gw-workspace/dnqed48moze/earth_data_utils.py\", line 7, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686240353392,
+  "history_end_time" : 1686240359460,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "4z8l2w2pq5n",
+  "history_input" : "from earth_dat_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nprint(results)",
+  "history_output" : "Traceback (most recent call last):\n  File \"/home/chetana/gw-workspace/4z8l2w2pq5n/search_data.py\", line 1, in <module>\n    from earth_dat_utils import *\n",
+  "history_begin_time" : 1686240318987,
+  "history_end_time" : 1686240331453,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "w8jn5i9auw8",
+  "history_input" : "ssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nprint(results)",
+  "history_output" : "Traceback (most recent call last):\n  File \"/home/chetana/gw-workspace/w8jn5i9auw8/search_data.py\", line 3, in <module>\n    results = earthaccess.search_data(\nNameError: name 'earthaccess' is not defined\n",
+  "history_begin_time" : 1686240133973,
+  "history_end_time" : 1686240219859,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},]

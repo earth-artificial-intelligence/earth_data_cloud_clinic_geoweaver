@@ -1,0 +1,51 @@
+[{
+  "history_id" : "bz3qybdxbkp",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/home/chetana/gw-workspace/bz3qybdxbkp/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686241352083,
+  "history_end_time" : 1686241361741,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "58cpg09gx0l",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nprint(results)",
+  "history_output" : "Traceback (most recent call last):\n  File \"/home/chetana/gw-workspace/58cpg09gx0l/search_data.py\", line 1, in <module>\n    from earth_data_utils import *\n  File \"/home/chetana/gw-workspace/58cpg09gx0l/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686241355914,
+  "history_end_time" : 1686241361742,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "kd9bx6e2b9t",
+  "history_input" : null,
+  "history_output" : null,
+  "history_begin_time" : null,
+  "history_end_time" : 1686241361742,
+  "history_notes" : null,
+  "history_process" : "cgvhiy",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "h9ljzavq3ue",
+  "history_input" : null,
+  "history_output" : null,
+  "history_begin_time" : null,
+  "history_end_time" : 1686241361745,
+  "history_notes" : null,
+  "history_process" : "v2ow93",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "79d54cll9uy",
+  "history_input" : null,
+  "history_output" : null,
+  "history_begin_time" : null,
+  "history_end_time" : 1686241361745,
+  "history_notes" : null,
+  "history_process" : "1b4ko0",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+}]

@@ -1,0 +1,33 @@
+[{
+  "id" : "wttkvt",
+  "name" : "earth_data_utils",
+  "description" : null,
+  "code" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "lang" : "python",
+  "owner" : "111111",
+  "confidential" : "FALSE"
+},{
+  "id" : "yvo1ds",
+  "name" : "search_data",
+  "description" : null,
+  "code" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)",
+  "lang" : "python",
+  "owner" : "111111",
+  "confidential" : "FALSE"
+},{
+  "id" : "cgvhiy",
+  "name" : "earth_access_authenticate",
+  "description" : null,
+  "code" : "from search_data import *\n\nsst_short_name=\"MUR-JPL-L4-GLOB-v4.1\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nauth = earthaccess.login(strategy=\"netrc\", persist=True)\nds = xr.open_mfdataset(earthaccess.open(results))\ngeojson_path = '/home/jovyan/gulf.json'\ngdf = gpd.read_file(geojson_path) #Return a GeoDataFrame object\n\n\nharmony_client = Client()\nsst_short_name=\"MUR-JPL-L4-GLOB-v4.1\"\n\nrequest = Request(\n  collection=Collection(id=sst_short_name),\n  shape=geojson_path,\n  temporal={\n    'start': dt.datetime(2021, 8, 1, 1),\n    'stop': dt.datetime(2021, 8, 1, 2)   \n  },\n)\njob_id = harmony_client.submit(request)\nharmony_client.wait_for_processing(job_id, show_progress=True)\ndata = harmony_client.result_json(job_id)\nresults = harmony_client.result_urls(job_id, link_type=LinkType.s3)\nurls = list(results)\nurl = urls[0]\n",
+  "lang" : "python",
+  "owner" : "111111",
+  "confidential" : "FALSE"
+},{
+  "id" : "1b4ko0",
+  "name" : "s3_file_storage",
+  "description" : null,
+  "code" : "import matplotlib.pyplot as plt\nfrom earth_access_authenticate import *\n\ntry:\n  creds = harmony_client.aws_credentials()\n  s3_fs = s3fs.S3FileSystem(\n      key=creds['aws_access_key_id'],\n      secret=creds['aws_secret_access_key'],\n      token=creds['aws_session_token'],\n      client_kwargs={'region_name':'us-west-2'},\n  )\n  f = s3_fs.open(url, mode='rb')\n  ds = xr.open_dataset(f)\n  ds.analysed_sst.plot()\n  plt.savefig('plot.png')\nexcept Exception as e:\n  print('please check the write permissions to directory', e)",
+  "lang" : "python",
+  "owner" : "111111",
+  "confidential" : "FALSE"
+}]
