@@ -26,7 +26,7 @@ request = Request(
   },
 )
 job_id = harmony_client.submit(request)
-harmony_client.wait_for_processing(job_id, show_progress=True)
+harmony_client.wait_for_processing(job_id, show_progress=False)
 data = harmony_client.result_json(job_id)
 results = harmony_client.result_urls(job_id, link_type=LinkType.s3)
 urls = list(results)
