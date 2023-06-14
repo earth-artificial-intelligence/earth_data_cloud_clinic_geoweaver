@@ -1,4 +1,174 @@
 [{
+  "history_id" : "1wr05lj5hop",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686760125186,
+  "history_end_time" : 1686760133987,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "wbebhds6yv6",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686760085425,
+  "history_end_time" : 1686760109200,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "cdwj0yhki09",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686751856346,
+  "history_end_time" : 1686751865120,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "5d7o2a98whf",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686727050227,
+  "history_end_time" : 1686727058494,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "j2rtn6y93dt",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686725636799,
+  "history_end_time" : 1686725645279,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "f22j91pmqpv",
+  "history_input" : null,
+  "history_output" : "Authentication Failed. Wrong Password.",
+  "history_begin_time" : 1686724134089,
+  "history_end_time" : 1686724134198,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "6vcghqhwxjo",
+  "history_input" : null,
+  "history_output" : "Authentication Failed. Wrong Password.",
+  "history_begin_time" : 1686721948005,
+  "history_end_time" : 1686721948114,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "b1xhfo7bwi7",
+  "history_input" : null,
+  "history_output" : "Authentication Failed. Wrong Password.",
+  "history_begin_time" : 1686721725773,
+  "history_end_time" : 1686721725886,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "7o4vvykzqjw",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686719702074,
+  "history_end_time" : 1686719710913,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "u51ro7imrzb",
+  "history_input" : null,
+  "history_output" : "Authentication Failed. Wrong Password.",
+  "history_begin_time" : 1686719429276,
+  "history_end_time" : 1686719429431,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "t8ew1m4j7vu",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686695725950,
+  "history_end_time" : 1686695734631,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "g7d9fcj72jd",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686694463422,
+  "history_end_time" : 1686694471965,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "94ytissp88r",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686694030928,
+  "history_end_time" : 1686694039470,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "r2asbsxdswe",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686684615894,
+  "history_end_time" : 1686684624388,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "ton9zjgdjuk",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686684353112,
+  "history_end_time" : 1686684361578,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "uq7pxxct69k",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686682065623,
+  "history_end_time" : 1686682074275,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "27ywqplqama",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
+  "history_begin_time" : 1686665474552,
+  "history_end_time" : 1686665483282,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
   "history_id" : "yvx83lhph1j",
   "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
   "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
