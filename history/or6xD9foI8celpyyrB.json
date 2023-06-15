@@ -1,0 +1,41 @@
+[{
+  "history_id" : "hjom9ewdwwi",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/hjom9ewdwwi/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686775515760,
+  "history_end_time" : 1686775516147,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "vgafskfauhv",
+  "history_input" : "from earth_data_utils import *\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/vgafskfauhv/search_data.py\", line 1, in <module>\n    from earth_data_utils import *\n  File \"/Users/gokulprathin/gw-workspace/vgafskfauhv/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686775517798,
+  "history_end_time" : 1686775517894,
+  "history_notes" : null,
+  "history_process" : "yvo1ds",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "t2eyfakzct8",
+  "history_input" : "from search_data import *\n\nsst_short_name=\"MUR-JPL-L4-GLOB-v4.1\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nauth = earthaccess.login(strategy=\"netrc\", persist=True)\nds = xr.open_mfdataset(earthaccess.open(results))\ngeojson_path = '/home/jovyan/gulf.json'\ngdf = gpd.read_file(geojson_path) #Return a GeoDataFrame object\n\n\nharmony_client = Client()\nsst_short_name=\"MUR-JPL-L4-GLOB-v4.1\"\n\nrequest = Request(\n  collection=Collection(id=sst_short_name),\n  shape=geojson_path,\n  temporal={\n    'start': dt.datetime(2021, 8, 1, 1),\n    'stop': dt.datetime(2021, 8, 1, 2)   \n  },\n)\njob_id = harmony_client.submit(request)\nharmony_client.wait_for_processing(job_id, show_progress=True)\ndata = harmony_client.result_json(job_id)\nresults = harmony_client.result_urls(job_id, link_type=LinkType.s3)\nurls = list(results)\nurl = urls[0]\n",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/t2eyfakzct8/earth_access_authenticate.py\", line 1, in <module>\n    from search_data import *\n  File \"/Users/gokulprathin/gw-workspace/t2eyfakzct8/search_data.py\", line 1, in <module>\n    from earth_data_utils import *\n  File \"/Users/gokulprathin/gw-workspace/t2eyfakzct8/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686775519209,
+  "history_end_time" : 1686775519337,
+  "history_notes" : null,
+  "history_process" : "cgvhiy",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "itbmpw9qbyg",
+  "history_input" : "from earth_access_authenticate import *\n\ntry:\n  creds = harmony_client.aws_credentials()\n  s3_fs = s3fs.S3FileSystem(\n      key=creds['aws_access_key_id'],\n      secret=creds['aws_secret_access_key'],\n      token=creds['aws_session_token'],\n      client_kwargs={'region_name':'us-west-2'},\n  )\n  f = s3_fs.open(url, mode='rb')\n  ds = xr.open_dataset(f)\n#ds.analysed_sst.plot()\nexcept:\n  pass",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/itbmpw9qbyg/s3_file_storage.py\", line 1, in <module>\n    from earth_access_authenticate import *\n  File \"/Users/gokulprathin/gw-workspace/itbmpw9qbyg/earth_access_authenticate.py\", line 1, in <module>\n    from search_data import *\n  File \"/Users/gokulprathin/gw-workspace/itbmpw9qbyg/search_data.py\", line 1, in <module>\n    from earth_data_utils import *\n  File \"/Users/gokulprathin/gw-workspace/itbmpw9qbyg/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686775520952,
+  "history_end_time" : 1686775521070,
+  "history_notes" : null,
+  "history_process" : "1b4ko0",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+}]

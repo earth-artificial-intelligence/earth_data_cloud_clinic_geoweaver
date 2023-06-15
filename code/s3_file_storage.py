@@ -11,8 +11,6 @@ import xarray as xr
 
 # Harmony
 import geopandas as gpd
-import geoviews as gv
-gv.extension('bokeh', 'matplotlib')
 from harmony import BBox, Client, Collection, Request, LinkType
 import datetime as dt
 import s3fs
@@ -26,6 +24,7 @@ s3_fs = s3fs.S3FileSystem(
   token=creds['aws_session_token'],
   client_kwargs={'region_name':'us-west-2'},
 )
+
 f = s3_fs.open(url, mode='rb')
 ds = xr.open_dataset(f)
 ds.analysed_sst.plot()
