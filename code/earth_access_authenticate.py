@@ -15,6 +15,8 @@ import geopandas as gpd
 
 ssh_short_name = "SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205"
 
+auth = earthaccess.login(strategy="netrc", persist=True)
+
 results = earthaccess.search_data(
     short_name=ssh_short_name,
     cloud_hosted=True,
@@ -28,7 +30,7 @@ results = earthaccess.search_data(
     temporal=("2021-07-01", "2021-09-30"),
 )
 
-auth = earthaccess.login(strategy="netrc", persist=True)
+
 ds = xr.open_mfdataset(earthaccess.open(results))
 geojson_url = 'https://raw.githubusercontent.com/earth-artificial-intelligence/earth_data_cloud_clinic_geoweaver/main/gulf.json'
 
