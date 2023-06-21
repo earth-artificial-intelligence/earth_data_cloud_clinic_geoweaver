@@ -14,7 +14,7 @@ def plot_subset(ds_subset):
   ds_subset.plot(figsize=(12,6), x='lon', y='lat')
   home_dir = os.path.expanduser('~')
   
-  file_name = f"geoweaver_plot_{str(uuid.uuid4())}.png"
+  file_name = f"geoweaver_plot_sst.png"
   save_file_path = os.path.join(home_dir, file_name)
   plt.savefig(save_file_path)
   print(f"new figure is saved to {save_file_path}")
