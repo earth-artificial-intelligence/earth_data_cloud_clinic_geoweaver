@@ -4,3 +4,4 @@ This is the workflow in Geoweaver replicated from Openscapes 2i2c. The workflow 
 
 In both scenarios, we will be accessing data directly from Amazon Web Services (AWS), specifically in the us-west-2 region, which is where all cloud-hosted NASA Earthdata reside. 
 
+![Alt text](<geoweaver_screenshot.png>)
