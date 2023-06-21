@@ -2,23 +2,7 @@
   "id" : "wttkvt",
   "name" : "earth_data_utils",
   "description" : null,
-  "code" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
-  "lang" : "python",
-  "owner" : "111111",
-  "confidential" : "FALSE"
-},{
-  "id" : "cgvhiy",
-  "name" : "earth_access_authenticate",
-  "description" : null,
-  "code" : "from search_data import *\n\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\nsst_short_name=\"MUR-JPL-L4-GLOB-v4.1\"\n\nresults = earthaccess.search_data(\n    short_name=ssh_short_name,\n    cloud_hosted=True,\n    temporal=(\"2021-07-01\", \"2021-09-30\"),\n)\n\nauth = earthaccess.login(strategy=\"netrc\", persist=True)\nds = xr.open_mfdataset(earthaccess.open(results))\ngeojson_path = '/home/jovyan/gulf.json'\ngdf = gpd.read_file(geojson_path) #Return a GeoDataFrame object\n\n\nharmony_client = Client()\nsst_short_name=\"MUR-JPL-L4-GLOB-v4.1\"\n\nrequest = Request(\n  collection=Collection(id=sst_short_name),\n  shape=geojson_path,\n  temporal={\n    'start': dt.datetime(2021, 8, 1, 1),\n    'stop': dt.datetime(2021, 8, 1, 2)   \n  },\n)\njob_id = harmony_client.submit(request)\nharmony_client.wait_for_processing(job_id, show_progress=False)\ndata = harmony_client.result_json(job_id)\nresults = harmony_client.result_urls(job_id, link_type=LinkType.s3)\nurls = list(results)\nurl = urls[0]\n",
-  "lang" : "python",
-  "owner" : "111111",
-  "confidential" : "FALSE"
-},{
-  "id" : "1b4ko0",
-  "name" : "s3_file_storage",
-  "description" : null,
-  "code" : "# Suppress warnings\nimport os\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs\nimport matplotlib.pyplot as plt\nfrom earth_access_authenticate import *\n\ncreds = harmony_client.aws_credentials()\ns3_fs = s3fs.S3FileSystem(\n  key=creds['aws_access_key_id'],\n  secret=creds['aws_secret_access_key'],\n  token=creds['aws_session_token'],\n  client_kwargs={'region_name':'us-west-2'},\n)\nf = s3_fs.open(url, mode='rb')\nds = xr.open_dataset(f)\nds.analysed_sst.plot()\nhome_dir = os.path.expanduser('~')\nplt.savefig(os.path.join(home_dir, 'plot2.png'))",
+  "code" : "\nimport os\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs\nimport matplotlib.pyplot as plt\nimport requests\nimport uuid\n\n\ngeojson_url = 'https://raw.githubusercontent.com/earth-artificial-intelligence/earth_data_cloud_clinic_geoweaver/main/gulf.json'\n\n\nssh_short_name = \"SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205\"\nsst_short_name=\"MUR-JPL-L4-GLOB-v4.1\"\n\n\ndef get_harmony_client():\n  print(\"creating harmony client\")\n  harmony_client = Client()\n  return harmony_client\n\ndef get_home_dir():\n  home_dir = os.path.expanduser(\"~\")\n  return home_dir\n\ndef download_geojson(geojson_url):\n  print(\"geojson_url: \", geojson_url)\n  geojson_path = os.path.join(get_home_dir(), 'gulf.json')\n  \n  response = requests.get(geojson_url)\n  with open(geojson_path, 'w') as f:\n    f.write(response.text)\n    print(\"saved to \", geojson_path)\n  return geojson_path\n\ndef auth_earthaccess():\n  return earthaccess.login(strategy=\"netrc\", persist=True)\n\n\ndef get_dataset(results):\n  return xr.open_mfdataset(earthaccess.open(results))\n  \ndef get_subset(ds, var_name, lat=slice(10.8, 40.9), lon=slice(234.5,260.5)):\n  print(ds)\n  return ds[var_name].sel(Latitude=lat, Longitude=lon)\n  \n\n\n\n",
   "lang" : "python",
   "owner" : "111111",
   "confidential" : "FALSE"
@@ -28,6 +12,22 @@
   "description" : "shell",
   "code" : "#!/bin/bash\npip3 install geopandas earthaccess xarray harmony-py s3fs\n",
   "lang" : "shell",
+  "owner" : "111111",
+  "confidential" : "FALSE"
+},{
+  "id" : "nlsntt",
+  "name" : "retrieve_sst",
+  "description" : null,
+  "code" : "from earth_data_utils import *\n\ndef search_and_get_sst():\n  auth_earthaccess()\n  results = earthaccess.search_data(\n      short_name=sst_short_name,\n      cloud_hosted=True,\n      temporal=(\"2021-07-01\", \"2021-07-02\"),\n  )\n  print(\"found results: \", results)\n  return results\n\ndef plot_subset(ds_subset):\n  ds_subset.plot(figsize=(12,6), x='lon', y='lat')\n  home_dir = os.path.expanduser('~')\n  \n  file_name = f\"geoweaver_plot_{str(uuid.uuid4())}.png\"\n  save_file_path = os.path.join(home_dir, file_name)\n  plt.savefig(save_file_path)\n  print(f\"new figure is saved to {save_file_path}\")\n\nwith get_dataset(search_and_get_sst()) as ds:\n  subset = ds[\"analysed_sst\"].sel(lat=slice(27, 37), \n                                lon=slice(-70,-50)).std('time')\n  plot_subset(subset)\n\n",
+  "lang" : "python",
+  "owner" : "111111",
+  "confidential" : "FALSE"
+},{
+  "id" : "e57twj",
+  "name" : "retrieve_ssh",
+  "description" : null,
+  "code" : "from earth_data_utils import *\n\ndef search_ssh():\n  auth_earthaccess()\n  results = earthaccess.search_data(\n      short_name=ssh_short_name,\n      cloud_hosted=True,\n      temporal=(\"2021-07-01\", \"2021-09-30\"),\n  )\n  return results\n\ndef plot_subset(ds_subset):\n  ds_subset.plot(figsize=(12,6), x='Longitude', y='Latitude')\n  home_dir = os.path.expanduser('~')\n  \n  file_name = f\"geoweaver_plot_{str(uuid.uuid4())}.png\"\n  save_file_path = os.path.join(home_dir, file_name)\n  plt.savefig(save_file_path)\n  print(f\"new figure is saved to {save_file_path}\")\n\nwith get_dataset(search_ssh()) as ds:\n  subset = ds[\"SLA\"].sel(Latitude=slice(-79, 79), \n                       Longitude=slice(100,300)).std('Time')\n  plot_subset(subset)\n",
+  "lang" : "python",
   "owner" : "111111",
   "confidential" : "FALSE"
 }]

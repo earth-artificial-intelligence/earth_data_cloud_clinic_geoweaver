@@ -1,0 +1,41 @@
+[{
+  "history_id" : "0rkv73he54j",
+  "history_input" : null,
+  "history_output" : null,
+  "history_begin_time" : null,
+  "history_end_time" : 1686797289418,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "l1vo67pnui1",
+  "history_input" : null,
+  "history_output" : null,
+  "history_begin_time" : null,
+  "history_end_time" : 1686797289430,
+  "history_notes" : null,
+  "history_process" : "cgvhiy",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "mregp63djeg",
+  "history_input" : "pip3 install requests earthaccess xarray geopandas s3fs h5netcdf dask matplotlib\npip install -U harmony-py",
+  "history_output" : "WARNING: pip is being invoked by an old script wrapper. This will fail in a future version of pip.\nPlease see https://github.com/pypa/pip/issues/5599 for advice on fixing the underlying issue.\nTo avoid this problem you can invoke Python with '-m pip' instead of running pip directly.\n/usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15: CryptographyDeprecationWarning: Python 3.6 is no longer supported by the Python core team. Therefore, support for it is deprecated in cryptography. The next release of cryptography will remove support for Python 3.6.\n  from cryptography.utils import int_from_bytes\nDefaulting to user installation because normal site-packages is not writeable\nRequirement already satisfied: requests in /home/chetana/.local/lib/python3.6/site-packages (2.25.1)\n\u001B[31mERROR: Could not find a version that satisfies the requirement earthaccess (from versions: none)\u001B[0m\n\u001B[31mERROR: No matching distribution found for earthaccess\u001B[0m\nWARNING: pip is being invoked by an old script wrapper. This will fail in a future version of pip.\nPlease see https://github.com/pypa/pip/issues/5599 for advice on fixing the underlying issue.\nTo avoid this problem you can invoke Python with '-m pip' instead of running pip directly.\n/usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15: CryptographyDeprecationWarning: Python 3.6 is no longer supported by the Python core team. Therefore, support for it is deprecated in cryptography. The next release of cryptography will remove support for Python 3.6.\n  from cryptography.utils import int_from_bytes\nDefaulting to user installation because normal site-packages is not writeable\nCollecting harmony-py\n  Using cached harmony_py-0.4.9-py3-none-any.whl (24 kB)\nCollecting curlify~=2.2.1\n  Using cached curlify-2.2.1.tar.gz (3.0 kB)\n  Preparing metadata (setup.py) ... \u001B[?25l-\b \bdone\n\u001B[?25hCollecting sphinxcontrib-napoleon~=0.7\n  Using cached sphinxcontrib_napoleon-0.7-py2.py3-none-any.whl (17 kB)\nCollecting python-dotenv~=0.20.0\n  Using cached python_dotenv-0.20.0-py3-none-any.whl (17 kB)\nCollecting harmony-py\n  Downloading harmony_py-0.4.8-py3-none-any.whl (24 kB)\n  Downloading harmony_py-0.4.7-py3-none-any.whl (24 kB)\nCollecting requests~=2.27.1\n  Using cached requests-2.27.1-py2.py3-none-any.whl (63 kB)\nCollecting progressbar2~=3.55.0\n  Using cached progressbar2-3.55.0-py2.py3-none-any.whl (26 kB)\nRequirement already satisfied: python-dateutil~=2.8.2 in /home/chetana/.local/lib/python3.6/site-packages (from harmony-py) (2.8.2)\nRequirement already satisfied: six in /usr/local/lib/python3.6/dist-packages (from progressbar2~=3.55.0->harmony-py) (1.14.0)\nCollecting python-utils>=2.3.0\n  Using cached python_utils-3.5.2-py2.py3-none-any.whl (24 kB)\nCollecting charset-normalizer~=2.0.0\n  Using cached charset_normalizer-2.0.12-py3-none-any.whl (39 kB)\nRequirement already satisfied: urllib3<1.27,>=1.21.1 in /home/chetana/.local/lib/python3.6/site-packages (from requests~=2.27.1->harmony-py) (1.26.15)\nRequirement already satisfied: certifi>=2017.4.17 in /usr/lib/python3/dist-packages (from requests~=2.27.1->harmony-py) (2018.1.18)\nRequirement already satisfied: idna<4,>=2.5 in /home/chetana/.local/lib/python3.6/site-packages (from requests~=2.27.1->harmony-py) (2.10)\nCollecting pockets>=0.3\n  Using cached pockets-0.9.1-py2.py3-none-any.whl (26 kB)\nRequirement already satisfied: typing-extensions in /home/chetana/.local/lib/python3.6/site-packages (from python-utils>=2.3.0->progressbar2~=3.55.0->harmony-py) (4.1.1)\nBuilding wheels for collected packages: curlify\n  Building wheel for curlify (setup.py) ... \u001B[?25l-\b \bdone\n\u001B[?25h  Created wheel for curlify: filename=curlify-2.2.1-py3-none-any.whl size=2742 sha256=b4cfb404612a35e40158a1230ff3b19b2032364826d26a0c2bced5cb171f7482\n  Stored in directory: /home/chetana/.cache/pip/wheels/7d/17/aa/707db4ba108501c55a4fc95ba2424325661078510f30321eba\nSuccessfully built curlify\nInstalling collected packages: charset-normalizer, requests, python-utils, pockets, sphinxcontrib-napoleon, python-dotenv, progressbar2, curlify, harmony-py\n  Attempting uninstall: charset-normalizer\n    Found existing installation: charset-normalizer 3.0.1\n    Uninstalling charset-normalizer-3.0.1:\n      Successfully uninstalled charset-normalizer-3.0.1\n\u001B[33m  WARNING: The script normalizer is installed in '/home/chetana/.local/bin' which is not on PATH.\n  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.\u001B[0m\n  Attempting uninstall: requests\n    Found existing installation: requests 2.25.1\n    Uninstalling requests-2.25.1:\n      Successfully uninstalled requests-2.25.1\n\u001B[33m  WARNING: The script dotenv is installed in '/home/chetana/.local/bin' which is not on PATH.\n  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.\u001B[0m\n\u001B[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\npystac-client 0.1.1 requires requests~=2.25.1, but you have requests 2.27.1 which is incompatible.\nhtmldate 1.4.2 requires charset-normalizer>=3.0.1; python_version < \"3.7\", but you have charset-normalizer 2.0.12 which is incompatible.\u001B[0m\nSuccessfully installed charset-normalizer-2.0.12 curlify-2.2.1 harmony-py-0.4.7 pockets-0.9.1 progressbar2-3.55.0 python-dotenv-0.20.0 python-utils-3.5.2 requests-2.27.1 sphinxcontrib-napoleon-0.7\n",
+  "history_begin_time" : 1686797281719,
+  "history_end_time" : 1686797293615,
+  "history_notes" : null,
+  "history_process" : "2a8mok",
+  "host_id" : "jf7wuu",
+  "indicator" : "Done"
+},{
+  "history_id" : "klj8fzam65d",
+  "history_input" : null,
+  "history_output" : null,
+  "history_begin_time" : null,
+  "history_end_time" : 1686797289451,
+  "history_notes" : null,
+  "history_process" : "1b4ko0",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+}]

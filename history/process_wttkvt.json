@@ -1,4 +1,404 @@
 [{
+  "history_id" : "n6qr3njqxfl",
+  "history_input" : "No code saved",
+  "history_output" : "Skipped",
+  "history_begin_time" : 1687321237828,
+  "history_end_time" : 1687321237828,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Skipped"
+},{
+  "history_id" : "2uy05l7jcvl",
+  "history_input" : "No code saved",
+  "history_output" : "Skipped",
+  "history_begin_time" : 1687320456084,
+  "history_end_time" : 1687320456084,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Skipped"
+},{
+  "history_id" : "87po8xuuddj",
+  "history_input" : "No code saved",
+  "history_output" : "Skipped",
+  "history_begin_time" : 1687320437993,
+  "history_end_time" : 1687320455144,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "xiwcj38rcfd",
+  "history_input" : "No code saved",
+  "history_output" : "Skipped",
+  "history_begin_time" : 1687318369756,
+  "history_end_time" : 1687318369756,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Skipped"
+},{
+  "history_id" : "2u4W1ixytRTe",
+  "history_input" : "\n# dependency imports for OpenScapes Geoweaver demo workflow\nimport os\nimport requests\nimport warnings\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs\n\n\n",
+  "history_output" : "",
+  "history_begin_time" : 1687234453752,
+  "history_end_time" : 1687234456482,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : null,
+  "indicator" : "Done"
+},{
+  "history_id" : "LJg3rheD47mH",
+  "history_input" : "\n# dependency imports for OpenScapes Geoweaver demo workflow\nimport os\nimport requests\nimport warnings\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs\n\n\n",
+  "history_output" : "",
+  "history_begin_time" : 1687234362968,
+  "history_end_time" : 1687234365443,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : null,
+  "indicator" : "Done"
+},{
+  "history_id" : "1pol7l9p6x2",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686863924966,
+  "history_end_time" : 1686864415826,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "7ostubdz7nr",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686858701355,
+  "history_end_time" : 1686859587544,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "7vh9lazpn2o",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686858379119,
+  "history_end_time" : 1686858632408,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "doqz02ds09o",
+  "history_input" : null,
+  "history_output" : "Authentication Failed. Wrong Password.",
+  "history_begin_time" : 1686858360998,
+  "history_end_time" : 1686858362171,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "17uh3ryrd7f",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686857829637,
+  "history_end_time" : 1686857987984,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "26lv1959bxm",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686857218816,
+  "history_end_time" : 1686857220911,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "zm4p6fll43x",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686797305641,
+  "history_end_time" : 1686797309135,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "jf7wuu",
+  "indicator" : "Done"
+},{
+  "history_id" : "pt3n16rz8k0",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686794166403,
+  "history_end_time" : 1686794169036,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "hkj7sbwiwp5",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686793972246,
+  "history_end_time" : 1686793975859,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "cf5fz5yw379",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686780374084,
+  "history_end_time" : 1686780375342,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "kc51diarhvx",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686780207150,
+  "history_end_time" : 1686780208500,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "oit5z1egkta",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686779668567,
+  "history_end_time" : 1686779669847,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "zo69cdqar6x",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686779344708,
+  "history_end_time" : 1686779345990,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "7fdw61xl3zh",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686779122177,
+  "history_end_time" : 1686779123533,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "6r04e6pszna",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686778959902,
+  "history_end_time" : 1686778961256,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "ho5tp11bl58",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686778908404,
+  "history_end_time" : 1686778909618,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "no5pznswlii",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686778877827,
+  "history_end_time" : 1686778879131,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "gmh03v19o6v",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686778789903,
+  "history_end_time" : 1686778791258,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "cggghbpq9d9",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686778399875,
+  "history_end_time" : 1686778401168,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "u8qm6n99jur",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686778240580,
+  "history_end_time" : 1686778242006,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "7195yt470f7",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686778190037,
+  "history_end_time" : 1686778191283,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "dx7q68w9748",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686777811748,
+  "history_end_time" : 1686777813005,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "1m0dsry536o",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686777726753,
+  "history_end_time" : 1686777727902,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "fmp988vtmms",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686777576266,
+  "history_end_time" : 1686777577414,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "jw2dp050s6s",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686777526030,
+  "history_end_time" : 1686777528594,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "q6zalag4odf",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/q6zalag4odf/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686777102919,
+  "history_end_time" : 1686777103268,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "eee90zq33mv",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/eee90zq33mv/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686775648944,
+  "history_end_time" : 1686775649088,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "qixxzkrwb38",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/qixxzkrwb38/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686775582344,
+  "history_end_time" : 1686775582454,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "hjom9ewdwwi",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/hjom9ewdwwi/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686775515760,
+  "history_end_time" : 1686775516147,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "41zw5tmbvad",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/gokulprathin/gw-workspace/41zw5tmbvad/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686775420249,
+  "history_end_time" : 1686775420343,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "rj1walhcas6",
+  "history_input" : null,
+  "history_output" : "Authentication Failed. Wrong Password.",
+  "history_begin_time" : 1686775388678,
+  "history_end_time" : 1686775388862,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "arwtgpbpcys",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686762195610,
+  "history_end_time" : 1686762202681,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "frduhuq69xx",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "",
+  "history_begin_time" : 1686761857383,
+  "history_end_time" : 1686761867451,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "l35gxvzl580",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/joe/gw-workspace/l35gxvzl580/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686761482808,
+  "history_end_time" : 1686761483335,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
   "history_id" : "1wr05lj5hop",
   "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
   "history_output" : "/srv/conda/envs/notebook/lib/python3.9/site-packages/geoviews/operation/__init__.py:14: HoloviewsDeprecationWarning: 'ResamplingOperation' is deprecated and will be removed in version 1.17, use 'ResampleOperation2D' instead.\n  from holoviews.operation.datashader import (\n",
@@ -18,6 +418,26 @@
   "history_process" : "wttkvt",
   "host_id" : "100001",
   "indicator" : "Stopped"
+},{
+  "history_id" : "p6977t6u1vo",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/joe/gw-workspace/p6977t6u1vo/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686759148585,
+  "history_end_time" : 1686759148955,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
+},{
+  "history_id" : "qrdgeq35rzb",
+  "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/joe/gw-workspace/qrdgeq35rzb/earth_data_utils.py\", line 10, in <module>\n    import earthaccess \nModuleNotFoundError: No module named 'earthaccess'\n",
+  "history_begin_time" : 1686759076017,
+  "history_end_time" : 1686759076500,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Failed"
 },{
   "history_id" : "cdwj0yhki09",
   "history_input" : "\n\n\n# Suppress warnings\nimport warnings\nwarnings.simplefilter('ignore')\nwarnings.filterwarnings('ignore')\n\n# Direct access\nimport earthaccess \nfrom pprint import pprint\nimport xarray as xr\n\n# Harmony\nimport geopandas as gpd\nimport geoviews as gv\ngv.extension('bokeh', 'matplotlib')\nfrom harmony import BBox, Client, Collection, Request, LinkType\nimport datetime as dt\nimport s3fs",
@@ -474,6 +894,46 @@
   "history_output" : "  File \"/home/chetana/gw-workspace/mtpbb008ahf/earth_data_utils.py\", line 18\n    %matplotlib inline\n    ^\nSyntaxError: invalid syntax\n",
   "history_begin_time" : 1686240132037,
   "history_end_time" : 1686240219858,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "jf7wuu",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "afwdo7lw494",
+  "history_input" : null,
+  "history_output" : null,
+  "history_begin_time" : null,
+  "history_end_time" : 1686776087369,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "zl6ntfg61js",
+  "history_input" : null,
+  "history_output" : null,
+  "history_begin_time" : null,
+  "history_end_time" : 1686775631016,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "6y67inil4b6",
+  "history_input" : null,
+  "history_output" : null,
+  "history_begin_time" : null,
+  "history_end_time" : 1686776085458,
+  "history_notes" : null,
+  "history_process" : "wttkvt",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "0rkv73he54j",
+  "history_input" : null,
+  "history_output" : null,
+  "history_begin_time" : null,
+  "history_end_time" : 1686797289418,
   "history_notes" : null,
   "history_process" : "wttkvt",
   "host_id" : "jf7wuu",
