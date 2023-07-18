@@ -20,7 +20,7 @@ def plot_subset(ds_subset):
   print(f"new figure is saved to {save_file_path}")
 
 with get_dataset(search_and_get_sst()) as ds:
-  subset = ds["analysed_sst"].sel(lat=slice(27, 37), 
+  subset = ds["analysed_sst"].sel(lat=slice(37, 47), 
                                 lon=slice(-70,-50)).std('time')
   plot_subset(subset)
 

@@ -18,7 +18,7 @@
   "id" : "nlsntt",
   "name" : "retrieve_sst",
   "description" : null,
-  "code" : "from earth_data_utils import *\n\ndef search_and_get_sst():\n  auth_earthaccess()\n  results = earthaccess.search_data(\n      short_name=sst_short_name,\n      cloud_hosted=True,\n      temporal=(\"2021-07-01\", \"2021-07-02\"),\n  )\n  print(\"found results: \", results)\n  return results\n\ndef plot_subset(ds_subset):\n  ds_subset.plot(figsize=(12,6), x='lon', y='lat')\n  home_dir = os.path.expanduser('~')\n  \n  file_name = f\"geoweaver_plot_sst.png\"\n  save_file_path = os.path.join(home_dir, file_name)\n  plt.savefig(save_file_path)\n  print(f\"new figure is saved to {save_file_path}\")\n\nwith get_dataset(search_and_get_sst()) as ds:\n  subset = ds[\"analysed_sst\"].sel(lat=slice(27, 37), \n                                lon=slice(-70,-50)).std('time')\n  plot_subset(subset)\n\n",
+  "code" : "from earth_data_utils import *\n\ndef search_and_get_sst():\n  auth_earthaccess()\n  results = earthaccess.search_data(\n      short_name=sst_short_name,\n      cloud_hosted=True,\n      temporal=(\"2021-07-01\", \"2021-07-02\"),\n  )\n  print(\"found results: \", results)\n  return results\n\ndef plot_subset(ds_subset):\n  ds_subset.plot(figsize=(12,6), x='lon', y='lat')\n  home_dir = os.path.expanduser('~')\n  \n  file_name = f\"geoweaver_plot_sst.png\"\n  save_file_path = os.path.join(home_dir, file_name)\n  plt.savefig(save_file_path)\n  print(f\"new figure is saved to {save_file_path}\")\n\nwith get_dataset(search_and_get_sst()) as ds:\n  subset = ds[\"analysed_sst\"].sel(lat=slice(37, 47), \n                                lon=slice(-70,-50)).std('time')\n  plot_subset(subset)\n\n",
   "lang" : "python",
   "owner" : "111111",
   "confidential" : "FALSE"
@@ -26,7 +26,7 @@
   "id" : "e57twj",
   "name" : "retrieve_ssh",
   "description" : null,
-  "code" : "from earth_data_utils import *\n\ndef search_ssh():\n  auth_earthaccess()\n  results = earthaccess.search_data(\n      short_name=ssh_short_name,\n      cloud_hosted=True,\n      temporal=(\"2021-07-01\", \"2021-09-30\"),\n  )\n  return results\n\ndef plot_subset(ds_subset):\n  ds_subset.plot(figsize=(12,6), x='Longitude', y='Latitude')\n  home_dir = os.path.expanduser('~')\n  \n  file_name = f\"geoweaver_plot_ssh.png\"\n  save_file_path = os.path.join(home_dir, file_name)\n  plt.savefig(save_file_path)\n  print(f\"new figure is saved to {save_file_path}\")\n\nwith get_dataset(search_ssh()) as ds:\n  subset = ds[\"SLA\"].sel(Latitude=slice(-79, 79), \n                       Longitude=slice(100,300)).std('Time')\n  plot_subset(subset)\n",
+  "code" : "from earth_data_utils import *\n\ndef search_ssh():\n  auth_earthaccess()\n  results = earthaccess.search_data(\n      short_name=ssh_short_name,\n      cloud_hosted=True,\n      temporal=(\"2021-07-01\", \"2021-07-10\"),\n  )\n  return results\n\ndef plot_subset(ds_subset):\n  ds_subset.plot(figsize=(12,6), x='Longitude', y='Latitude')\n  home_dir = os.path.expanduser('~')\n  \n  file_name = f\"geoweaver_plot_ssh.png\"\n  save_file_path = os.path.join(home_dir, file_name)\n  plt.savefig(save_file_path)\n  print(f\"new figure is saved to {save_file_path}\")\n\nwith get_dataset(search_ssh()) as ds:\n  subset = ds[\"SLA\"].sel(Latitude=slice(-79, 79), \n                       Longitude=slice(100,300)).std('Time')\n  plot_subset(subset)\n",
   "lang" : "python",
   "owner" : "111111",
   "confidential" : "FALSE"

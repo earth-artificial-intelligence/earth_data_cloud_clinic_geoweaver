@@ -5,7 +5,7 @@ def search_ssh():
   results = earthaccess.search_data(
       short_name=ssh_short_name,
       cloud_hosted=True,
-      temporal=("2021-07-01", "2021-09-30"),
+      temporal=("2021-07-01", "2021-07-10"),
   )
   return results
 

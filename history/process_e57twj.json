@@ -1,4 +1,114 @@
 [{
+  "history_id" : "wVGsXabxJJyJ",
+  "history_input" : "from earth_data_utils import *\n\ndef search_ssh():\n  auth_earthaccess()\n  results = earthaccess.search_data(\n      short_name=ssh_short_name,\n      cloud_hosted=True,\n      temporal=(\"2021-07-01\", \"2021-07-10\"),\n  )\n  return results\n\ndef plot_subset(ds_subset):\n  ds_subset.plot(figsize=(12,6), x='Longitude', y='Latitude')\n  home_dir = os.path.expanduser('~')\n  \n  file_name = f\"geoweaver_plot_ssh.png\"\n  save_file_path = os.path.join(home_dir, file_name)\n  plt.savefig(save_file_path)\n  print(f\"new figure is saved to {save_file_path}\")\n\nwith get_dataset(search_ssh()) as ds:\n  subset = ds[\"SLA\"].sel(Latitude=slice(-79, 79), \n                       Longitude=slice(100,300)).std('Time')\n  plot_subset(subset)\n",
+  "history_output" : "WARNING:param.notebook_extension: Holoviews bokeh extension could not be imported, it raised the following exception: ValueError('ClassSelector parameter None value must be an instance of (function, tuple), not <function size at 0x7fa5e1b624b0>.')\nWARNING:param.notebook_extension: bokeh backend hook <function _load_bokeh at 0x7fa5e7049b80> failed with following exception: ClassSelector parameter None value must be an instance of (function, tuple), not <function size at 0x7fa5e1b624b0>.\nYou're now authenticated with NASA Earthdata Login\nUsing token with expiration date: 08/19/2023\nUsing .netrc file for EDL\nGranules found: 2\n Opening 2 granules, approx size: 0.0 GB\nQUEUEING TASKS | :   0%|          | 0/2 [00:00<?, ?it/s]\nQUEUEING TASKS | : 100%|██████████| 2/2 [00:00<00:00, 2094.53it/s]\nPROCESSING TASKS | :   0%|          | 0/2 [00:00<?, ?it/s]\nPROCESSING TASKS | :  50%|█████     | 1/2 [00:01<00:01,  1.55s/it]\nPROCESSING TASKS | : 100%|██████████| 2/2 [00:01<00:00,  1.29it/s]\nCOLLECTING RESULTS | :   0%|          | 0/2 [00:00<?, ?it/s]\nCOLLECTING RESULTS | : 100%|██████████| 2/2 [00:00<00:00, 35098.78it/s]\nnew figure is saved to /Users/joe/geoweaver_plot_ssh.png\n",
+  "history_begin_time" : 1689697379297,
+  "history_end_time" : 1689697437512,
+  "history_notes" : null,
+  "history_process" : "e57twj",
+  "host_id" : null,
+  "indicator" : "Done"
+},{
+  "history_id" : "fDYhNY1FyVTN",
+  "history_input" : "from earth_data_utils import *\n\ndef search_ssh():\n  auth_earthaccess()\n  results = earthaccess.search_data(\n      short_name=ssh_short_name,\n      cloud_hosted=True,\n      temporal=(\"2021-07-01\", \"2021-07-02\"),\n  )\n  return results\n\ndef plot_subset(ds_subset):\n  ds_subset.plot(figsize=(12,6), x='Longitude', y='Latitude')\n  home_dir = os.path.expanduser('~')\n  \n  file_name = f\"geoweaver_plot_ssh.png\"\n  save_file_path = os.path.join(home_dir, file_name)\n  plt.savefig(save_file_path)\n  print(f\"new figure is saved to {save_file_path}\")\n\nwith get_dataset(search_ssh()) as ds:\n  subset = ds[\"SLA\"].sel(Latitude=slice(-79, 79), \n                       Longitude=slice(100,300)).std('Time')\n  plot_subset(subset)\n",
+  "history_output" : "WARNING:param.notebook_extension: Holoviews bokeh extension could not be imported, it raised the following exception: ValueError('ClassSelector parameter None value must be an instance of (function, tuple), not <function size at 0x7fefe122b7b0>.')\nWARNING:param.notebook_extension: bokeh backend hook <function _load_bokeh at 0x7fefd1359b80> failed with following exception: ClassSelector parameter None value must be an instance of (function, tuple), not <function size at 0x7fefe122b7b0>.\nYou're now authenticated with NASA Earthdata Login\nUsing token with expiration date: 08/19/2023\nUsing .netrc file for EDL\nGranules found: 0\nThe granules list is empty, moving on...\nTraceback (most recent call last):\n  File \"/Users/joe/gw-workspace/fDYhNY1FyVTN/retrieve_ssh.py\", line 21, in <module>\n    with get_dataset(search_ssh()) as ds:\n  File \"/Users/joe/gw-workspace/fDYhNY1FyVTN/earth_data_utils.py\", line 57, in get_dataset\n    return xr.open_mfdataset(earthaccess.open(results))\n  File \"/Users/l21-n02609-comm/opt/anaconda3/lib/python3.9/site-packages/xarray/backends/api.py\", line 870, in open_mfdataset\n    paths = [os.fspath(p) if isinstance(p, os.PathLike) else p for p in paths]\nTypeError: 'NoneType' object is not iterable\n",
+  "history_begin_time" : 1689697345278,
+  "history_end_time" : 1689697351126,
+  "history_notes" : null,
+  "history_process" : "e57twj",
+  "host_id" : null,
+  "indicator" : "Failed"
+},{
+  "history_id" : "yPcU6ynL3Fr8",
+  "history_input" : "from earth_data_utils import *\n\ndef search_ssh():\n  auth_earthaccess()\n  results = earthaccess.search_data(\n      short_name=ssh_short_name,\n      cloud_hosted=True,\n      temporal=(\"2021-07-01\", \"2021-07-10\"),\n  )\n  return results\n\ndef plot_subset(ds_subset):\n  ds_subset.plot(figsize=(12,6), x='Longitude', y='Latitude')\n  home_dir = os.path.expanduser('~')\n  \n  file_name = f\"geoweaver_plot_ssh.png\"\n  save_file_path = os.path.join(home_dir, file_name)\n  plt.savefig(save_file_path)\n  print(f\"new figure is saved to {save_file_path}\")\n\nwith get_dataset(search_ssh()) as ds:\n  subset = ds[\"SLA\"].sel(Latitude=slice(-79, 79), \n                       Longitude=slice(100,300)).std('Time')\n  plot_subset(subset)\n",
+  "history_output" : "WARNING:param.notebook_extension: Holoviews bokeh extension could not be imported, it raised the following exception: ValueError('ClassSelector parameter None value must be an instance of (function, tuple), not <function size at 0x7ff4411ab7b0>.')\nWARNING:param.notebook_extension: bokeh backend hook <function _load_bokeh at 0x7ff45118ab80> failed with following exception: ClassSelector parameter None value must be an instance of (function, tuple), not <function size at 0x7ff4411ab7b0>.\nYou're now authenticated with NASA Earthdata Login\nUsing token with expiration date: 08/19/2023\nUsing .netrc file for EDL\nGranules found: 2\n Opening 2 granules, approx size: 0.0 GB\nQUEUEING TASKS | :   0%|          | 0/2 [00:00<?, ?it/s]\nQUEUEING TASKS | : 100%|██████████| 2/2 [00:00<00:00, 2415.38it/s]\nPROCESSING TASKS | :   0%|          | 0/2 [00:00<?, ?it/s]\nPROCESSING TASKS | :  50%|█████     | 1/2 [00:01<00:01,  1.42s/it]\nPROCESSING TASKS | : 100%|██████████| 2/2 [00:01<00:00,  1.52it/s]\nPROCESSING TASKS | : 100%|██████████| 2/2 [00:01<00:00,  1.29it/s]\nCOLLECTING RESULTS | :   0%|          | 0/2 [00:00<?, ?it/s]\nCOLLECTING RESULTS | : 100%|██████████| 2/2 [00:00<00:00, 14169.95it/s]\nnew figure is saved to /Users/joe/geoweaver_plot_ssh.png\n",
+  "history_begin_time" : 1689697207209,
+  "history_end_time" : 1689697261372,
+  "history_notes" : null,
+  "history_process" : "e57twj",
+  "host_id" : null,
+  "indicator" : "Done"
+},{
+  "history_id" : "ov5ekas83m8",
+  "history_input" : "from earth_data_utils import *\n\ndef search_ssh():\n  auth_earthaccess()\n  results = earthaccess.search_data(\n      short_name=ssh_short_name,\n      cloud_hosted=True,\n      temporal=(\"2021-07-01\", \"2021-09-30\"),\n  )\n  return results\n\ndef plot_subset(ds_subset):\n  ds_subset.plot(figsize=(12,6), x='Longitude', y='Latitude')\n  home_dir = os.path.expanduser('~')\n  \n  file_name = f\"geoweaver_plot_ssh.png\"\n  save_file_path = os.path.join(home_dir, file_name)\n  plt.savefig(save_file_path)\n  print(f\"new figure is saved to {save_file_path}\")\n\nwith get_dataset(search_ssh()) as ds:\n  subset = ds[\"SLA\"].sel(Latitude=slice(-79, 79), \n                       Longitude=slice(100,300)).std('Time')\n  plot_subset(subset)\n",
+  "history_output" : "Running",
+  "history_begin_time" : 1689696556673,
+  "history_end_time" : 1689698118710,
+  "history_notes" : null,
+  "history_process" : "e57twj",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "1l25o5p4a5y",
+  "history_input" : "from earth_data_utils import *\n\ndef search_ssh():\n  auth_earthaccess()\n  results = earthaccess.search_data(\n      short_name=ssh_short_name,\n      cloud_hosted=True,\n      temporal=(\"2021-07-01\", \"2021-09-30\"),\n  )\n  return results\n\ndef plot_subset(ds_subset):\n  ds_subset.plot(figsize=(12,6), x='Longitude', y='Latitude')\n  home_dir = os.path.expanduser('~')\n  \n  file_name = f\"geoweaver_plot_ssh.png\"\n  save_file_path = os.path.join(home_dir, file_name)\n  plt.savefig(save_file_path)\n  print(f\"new figure is saved to {save_file_path}\")\n\nwith get_dataset(search_ssh()) as ds:\n  subset = ds[\"SLA\"].sel(Latitude=slice(-79, 79), \n                       Longitude=slice(100,300)).std('Time')\n  plot_subset(subset)\n",
+  "history_output" : "Running",
+  "history_begin_time" : 1689696455732,
+  "history_end_time" : 1689698120373,
+  "history_notes" : null,
+  "history_process" : "e57twj",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "aifpbscthcp",
+  "history_input" : "from earth_data_utils import *\n\ndef search_ssh():\n  auth_earthaccess()\n  results = earthaccess.search_data(\n      short_name=ssh_short_name,\n      cloud_hosted=True,\n      temporal=(\"2021-07-01\", \"2021-09-30\"),\n  )\n  return results\n\ndef plot_subset(ds_subset):\n  ds_subset.plot(figsize=(12,6), x='Longitude', y='Latitude')\n  home_dir = os.path.expanduser('~')\n  \n  file_name = f\"geoweaver_plot_ssh.png\"\n  save_file_path = os.path.join(home_dir, file_name)\n  plt.savefig(save_file_path)\n  print(f\"new figure is saved to {save_file_path}\")\n\nwith get_dataset(search_ssh()) as ds:\n  subset = ds[\"SLA\"].sel(Latitude=slice(-79, 79), \n                       Longitude=slice(100,300)).std('Time')\n  plot_subset(subset)\n",
+  "history_output" : "Running",
+  "history_begin_time" : 1689685480658,
+  "history_end_time" : 1689698121006,
+  "history_notes" : null,
+  "history_process" : "e57twj",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "n9gvsxpbqmk",
+  "history_input" : "from earth_data_utils import *\n\ndef search_ssh():\n  auth_earthaccess()\n  results = earthaccess.search_data(\n      short_name=ssh_short_name,\n      cloud_hosted=True,\n      temporal=(\"2021-07-01\", \"2021-09-30\"),\n  )\n  return results\n\ndef plot_subset(ds_subset):\n  ds_subset.plot(figsize=(12,6), x='Longitude', y='Latitude')\n  home_dir = os.path.expanduser('~')\n  \n  file_name = f\"geoweaver_plot_ssh.png\"\n  save_file_path = os.path.join(home_dir, file_name)\n  plt.savefig(save_file_path)\n  print(f\"new figure is saved to {save_file_path}\")\n\nwith get_dataset(search_ssh()) as ds:\n  subset = ds[\"SLA\"].sel(Latitude=slice(-79, 79), \n                       Longitude=slice(100,300)).std('Time')\n  plot_subset(subset)\n",
+  "history_output" : "Running",
+  "history_begin_time" : 1689685343510,
+  "history_end_time" : 1689698122123,
+  "history_notes" : null,
+  "history_process" : "e57twj",
+  "host_id" : "100001",
+  "indicator" : "Stopped"
+},{
+  "history_id" : "q9cdkhm0evg",
+  "history_input" : "from earth_data_utils import *\n\ndef search_ssh():\n  auth_earthaccess()\n  results = earthaccess.search_data(\n      short_name=ssh_short_name,\n      cloud_hosted=True,\n      temporal=(\"2021-07-01\", \"2021-09-30\"),\n  )\n  return results\n\ndef plot_subset(ds_subset):\n  ds_subset.plot(figsize=(12,6), x='Longitude', y='Latitude')\n  home_dir = os.path.expanduser('~')\n  \n  file_name = f\"geoweaver_plot_ssh.png\"\n  save_file_path = os.path.join(home_dir, file_name)\n  plt.savefig(save_file_path)\n  print(f\"new figure is saved to {save_file_path}\")\n\nwith get_dataset(search_ssh()) as ds:\n  subset = ds[\"SLA\"].sel(Latitude=slice(-79, 79), \n                       Longitude=slice(100,300)).std('Time')\n  plot_subset(subset)\n",
+  "history_output" : "You're now authenticated with NASA Earthdata Login\nUsing token with expiration date: 08/19/2023\nUsing .netrc file for EDL\nGranules found: 18\n Opening 18 granules, approx size: 0.0 GB\nQUEUEING TASKS | :   0%|          | 0/18 [00:00<?, ?it/s]\nQUEUEING TASKS | : 100%|██████████| 18/18 [00:00<00:00, 3496.55it/s]\nPROCESSING TASKS | :   0%|          | 0/18 [00:00<?, ?it/s]\nPROCESSING TASKS | :   6%|▌         | 1/18 [00:00<00:13,  1.26it/s]\nPROCESSING TASKS | :  28%|██▊       | 5/18 [00:00<00:02,  6.27it/s]\nPROCESSING TASKS | :  39%|███▉      | 7/18 [00:01<00:01,  7.97it/s]\nPROCESSING TASKS | :  50%|█████     | 9/18 [00:01<00:01,  6.93it/s]\nPROCESSING TASKS | :  61%|██████    | 11/18 [00:01<00:00,  8.53it/s]\nPROCESSING TASKS | :  72%|███████▏  | 13/18 [00:01<00:00,  9.21it/s]\nPROCESSING TASKS | :  83%|████████▎ | 15/18 [00:01<00:00, 10.40it/s]\nPROCESSING TASKS | :  94%|█████████▍| 17/18 [00:02<00:00,  9.69it/s]\nPROCESSING TASKS | : 100%|██████████| 18/18 [00:02<00:00,  7.37it/s]\nCOLLECTING RESULTS | :   0%|          | 0/18 [00:00<?, ?it/s]\nCOLLECTING RESULTS | : 100%|██████████| 18/18 [00:00<00:00, 153762.67it/s]\nnew figure is saved to /Users/joe/geoweaver_plot_ssh.png\n",
+  "history_begin_time" : 1687374885409,
+  "history_end_time" : 1687374949593,
+  "history_notes" : null,
+  "history_process" : "e57twj",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "ppyfc2he31g",
+  "history_input" : "from earth_data_utils import *\n\ndef search_ssh():\n  auth_earthaccess()\n  results = earthaccess.search_data(\n      short_name=ssh_short_name,\n      cloud_hosted=True,\n      temporal=(\"2021-07-01\", \"2021-09-30\"),\n  )\n  return results\n\ndef plot_subset(ds_subset):\n  ds_subset.plot(figsize=(12,6), x='Longitude', y='Latitude')\n  home_dir = os.path.expanduser('~')\n  \n  file_name = f\"geoweaver_plot_ssh.png\"\n  save_file_path = os.path.join(home_dir, file_name)\n  plt.savefig(save_file_path)\n  print(f\"new figure is saved to {save_file_path}\")\n\nwith get_dataset(search_ssh()) as ds:\n  subset = ds[\"SLA\"].sel(Latitude=slice(-79, 79), \n                       Longitude=slice(100,300)).std('Time')\n  plot_subset(subset)\n",
+  "history_output" : "You're now authenticated with NASA Earthdata Login\nUsing token with expiration date: 08/19/2023\nUsing .netrc file for EDL\nGranules found: 18\n Opening 18 granules, approx size: 0.0 GB\nQUEUEING TASKS | :   0%|          | 0/18 [00:00<?, ?it/s]\nQUEUEING TASKS | : 100%|██████████| 18/18 [00:00<00:00, 3349.49it/s]\nPROCESSING TASKS | :   0%|          | 0/18 [00:00<?, ?it/s]\nPROCESSING TASKS | :   6%|▌         | 1/18 [00:00<00:14,  1.20it/s]\nPROCESSING TASKS | :  22%|██▏       | 4/18 [00:01<00:02,  4.77it/s]\nPROCESSING TASKS | :  33%|███▎      | 6/18 [00:01<00:01,  6.77it/s]\nPROCESSING TASKS | :  50%|█████     | 9/18 [00:01<00:01,  7.23it/s]\nPROCESSING TASKS | :  67%|██████▋   | 12/18 [00:01<00:00,  8.87it/s]\nPROCESSING TASKS | :  83%|████████▎ | 15/18 [00:01<00:00, 11.38it/s]\nPROCESSING TASKS | :  94%|█████████▍| 17/18 [00:02<00:00,  9.28it/s]\nPROCESSING TASKS | : 100%|██████████| 18/18 [00:02<00:00,  8.05it/s]\nCOLLECTING RESULTS | :   0%|          | 0/18 [00:00<?, ?it/s]\nCOLLECTING RESULTS | : 100%|██████████| 18/18 [00:00<00:00, 140591.20it/s]\nnew figure is saved to /Users/joe/geoweaver_plot_ssh.png\n",
+  "history_begin_time" : 1687333011156,
+  "history_end_time" : 1687333074205,
+  "history_notes" : null,
+  "history_process" : "e57twj",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "jlmxs448gc7",
+  "history_input" : "from earth_data_utils import *\n\ndef search_ssh():\n  auth_earthaccess()\n  results = earthaccess.search_data(\n      short_name=ssh_short_name,\n      cloud_hosted=True,\n      temporal=(\"2021-07-01\", \"2021-09-30\"),\n  )\n  return results\n\ndef plot_subset(ds_subset):\n  ds_subset.plot(figsize=(12,6), x='Longitude', y='Latitude')\n  home_dir = os.path.expanduser('~')\n  \n  file_name = f\"geoweaver_plot_ssh.png\"\n  save_file_path = os.path.join(home_dir, file_name)\n  plt.savefig(save_file_path)\n  print(f\"new figure is saved to {save_file_path}\")\n\nwith get_dataset(search_ssh()) as ds:\n  subset = ds[\"SLA\"].sel(Latitude=slice(-79, 79), \n                       Longitude=slice(100,300)).std('Time')\n  plot_subset(subset)\n",
+  "history_output" : "You're now authenticated with NASA Earthdata Login\nUsing token with expiration date: 08/19/2023\nUsing .netrc file for EDL\nGranules found: 18\n Opening 18 granules, approx size: 0.0 GB\nQUEUEING TASKS | :   0%|          | 0/18 [00:00<?, ?it/s]\nQUEUEING TASKS | : 100%|██████████| 18/18 [00:00<00:00, 3068.01it/s]\nPROCESSING TASKS | :   0%|          | 0/18 [00:00<?, ?it/s]\nPROCESSING TASKS | :   6%|▌         | 1/18 [00:00<00:12,  1.35it/s]\nPROCESSING TASKS | :  44%|████▍     | 8/18 [00:00<00:00, 12.06it/s]\nPROCESSING TASKS | :  67%|██████▋   | 12/18 [00:01<00:00,  9.49it/s]\nPROCESSING TASKS | :  83%|████████▎ | 15/18 [00:01<00:00, 11.77it/s]\nPROCESSING TASKS | : 100%|██████████| 18/18 [00:02<00:00,  8.66it/s]\nPROCESSING TASKS | : 100%|██████████| 18/18 [00:02<00:00,  8.68it/s]\nCOLLECTING RESULTS | :   0%|          | 0/18 [00:00<?, ?it/s]\nCOLLECTING RESULTS | : 100%|██████████| 18/18 [00:00<00:00, 89451.98it/s]\nnew figure is saved to /Users/joe/geoweaver_plot_ssh.png\n",
+  "history_begin_time" : 1687332752079,
+  "history_end_time" : 1687332824518,
+  "history_notes" : null,
+  "history_process" : "e57twj",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "o2qf88jyh2f",
+  "history_input" : "from earth_data_utils import *\n\ndef search_ssh():\n  auth_earthaccess()\n  results = earthaccess.search_data(\n      short_name=ssh_short_name,\n      cloud_hosted=True,\n      temporal=(\"2021-07-01\", \"2021-09-30\"),\n  )\n  return results\n\ndef plot_subset(ds_subset):\n  ds_subset.plot(figsize=(12,6), x='Longitude', y='Latitude')\n  home_dir = os.path.expanduser('~')\n  \n  file_name = f\"geoweaver_plot_ssh.png\"\n  save_file_path = os.path.join(home_dir, file_name)\n  plt.savefig(save_file_path)\n  print(f\"new figure is saved to {save_file_path}\")\n\nwith get_dataset(search_ssh()) as ds:\n  subset = ds[\"SLA\"].sel(Latitude=slice(-79, 79), \n                       Longitude=slice(100,300)).std('Time')\n  plot_subset(subset)\n",
+  "history_output" : "You're now authenticated with NASA Earthdata Login\nUsing token with expiration date: 08/19/2023\nUsing .netrc file for EDL\nGranules found: 18\n Opening 18 granules, approx size: 0.0 GB\nQUEUEING TASKS | :   0%|          | 0/18 [00:00<?, ?it/s]\nQUEUEING TASKS | : 100%|██████████| 18/18 [00:00<00:00, 2985.15it/s]\nPROCESSING TASKS | :   0%|          | 0/18 [00:00<?, ?it/s]\nPROCESSING TASKS | :   6%|▌         | 1/18 [00:00<00:13,  1.30it/s]\nPROCESSING TASKS | :  28%|██▊       | 5/18 [00:00<00:01,  6.88it/s]\nPROCESSING TASKS | :  44%|████▍     | 8/18 [00:01<00:01,  9.84it/s]\nPROCESSING TASKS | :  56%|█████▌    | 10/18 [00:01<00:01,  6.61it/s]\nPROCESSING TASKS | :  83%|████████▎ | 15/18 [00:01<00:00, 11.22it/s]\nPROCESSING TASKS | :  94%|█████████▍| 17/18 [00:02<00:00,  9.65it/s]\nPROCESSING TASKS | : 100%|██████████| 18/18 [00:02<00:00,  6.96it/s]\nCOLLECTING RESULTS | :   0%|          | 0/18 [00:00<?, ?it/s]\nCOLLECTING RESULTS | : 100%|██████████| 18/18 [00:00<00:00, 83055.52it/s]\nnew figure is saved to /Users/joe/geoweaver_plot_ssh.png\n",
+  "history_begin_time" : 1687332563013,
+  "history_end_time" : 1687332624680,
+  "history_notes" : null,
+  "history_process" : "e57twj",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
   "history_id" : "agb7rrec49u",
   "history_input" : "from earth_data_utils import *\n\ndef search_ssh():\n  auth_earthaccess()\n  results = earthaccess.search_data(\n      short_name=ssh_short_name,\n      cloud_hosted=True,\n      temporal=(\"2021-07-01\", \"2021-09-30\"),\n  )\n  return results\n\ndef plot_subset(ds_subset):\n  ds_subset.plot(figsize=(12,6), x='Longitude', y='Latitude')\n  home_dir = os.path.expanduser('~')\n  \n  file_name = f\"geoweaver_plot_{str(uuid.uuid4())}.png\"\n  save_file_path = os.path.join(home_dir, file_name)\n  plt.savefig(save_file_path)\n  print(f\"new figure is saved to {save_file_path}\")\n\nwith get_dataset(search_ssh()) as ds:\n  subset = ds[\"SLA\"].sel(Latitude=slice(-79, 79), \n                       Longitude=slice(100,300)).std('Time')\n  plot_subset(subset)\n",
   "history_output" : "Running",
